@@ -82,10 +82,9 @@ to capture the image via FOG.
 
 3. Sysprep Preparation: Used the Sysprep tool to generalize the system for imaging. This ensures the captured image can be deployed across other systems without conflicts.
 
-```
-C:\Windows\System32\Sysprep\sysprep.exe
+`C:\Windows\System32\Sysprep\sysprep.exe`
+
 After running Sysprep, I configured DC1 to network boot without booting from the disk again before capturing the image.
-```
 
 ## 3. Image Capture with FOG
 After configuring DC1, I captured its image using FOG.
